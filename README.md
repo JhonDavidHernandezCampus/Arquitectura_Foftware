@@ -44,3 +44,34 @@ La arquitectura de software es como el plano de una ciudad 🏙️. Se basa en u
 | Interconexiones                            | Las formas en que los componentes se comunican entre sí, como llamadas a funciones, intercambio de datos o servicios web.                     |
 | Patrones de Diseño                         | Soluciones probadas y estándar para problemas comunes de diseño de software, como el patrón MVC (Model-View-Controller) o el patrón de capas. |
 | Consideraciones de Calidad                 | Factores como la seguridad, la escalabilidad, la eficiencia y la confiabilidad que deben tenerse en cuenta en el diseño.                      |
+
+
+
+
+### Patrones de arquitectura de software
+
+🏛️ **Patrones de Arquitectura de Software** 🏛️
+
+La arquitectura de software se basa en una variedad de patrones para organizar y diseñar sistemas de software de manera efectiva. Aquí te presentamos algunos patrones de arquitectura comunes:
+
+**1. Patrón Cliente-Servidor** 🤵🏻🤖
+
+El patrón Cliente-Servidor es uno de los más fundamentales. En este modelo, un cliente (usuario o aplicación) solicita servicios o recursos a un servidor central. Es como un restaurante donde el cliente hace pedidos y el chef (servidor) prepara la comida. Este enfoque permite una clara separación de responsabilidades entre el cliente y el servidor.
+
+**2. Patrón de Capas** 🍰🍰
+
+El Patrón de Capas organiza un sistema en capas o niveles, donde cada capa tiene una función específica. Por ejemplo, en una aplicación web, puedes tener una capa de presentación (interfaz de usuario), una capa de lógica de negocios y una capa de acceso a datos. Esta estructura facilita la gestión y la escalabilidad.
+
+**3. Patrón Master-Slave** 🎩🤵
+
+El Patrón Master-Slave involucra dos roles: el "maestro" (master) y el "esclavo" (slave). El maestro coordina y dirige las tareas, mientras que los esclavos realizan las tareas asignadas. Este patrón es útil en sistemas distribuidos y paralelos, como una orquesta dirigida por un director.
+
+**4. Patrón Modelo-Vista-Controlador (MVC)** 👩‍💼🖼️🎮
+
+El Patrón Modelo-Vista-Controlador (MVC) es ampliamente utilizado en aplicaciones web y de software. Divide una aplicación en tres componentes: el Modelo (que maneja los datos), la Vista (que maneja la interfaz de usuario) y el Controlador (que gestiona la lógica de negocios). Es como una representación de un juego de roles en una obra de teatro.
+
+**5. Patrón Broker** 🤝
+
+El Patrón Broker actúa como intermediario entre componentes o servicios. Proporciona un punto centralizado para la comunicación y la gestión de servicios, lo que facilita la escalabilidad y la gestión de componentes distribuidos. Piensa en él como un conserje que te conecta con diferentes servicios en un hotel.
+
+Estos patrones son solo algunos ejemplos de las numerosas estrategias utilizadas en la arquitectura de software para resolver desafíos específicos. La elección del patrón adecuado depende de las necesidades y objetivos de tu proyecto. 🛠️📚
