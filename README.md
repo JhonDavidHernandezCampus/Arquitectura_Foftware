@@ -1,6 +1,14 @@
-# Arquitectura de foftware
+# Arquitectura de software
 
 ### ¿Que es la  Arquitectura de foftware?
+- [Arquitectura de software](#arquitectura-de-software)
+    - [¿Que es la  Arquitectura de foftware?](#que-es-la--arquitectura-de-foftware)
+    - [¿Cómo funciona la arquitectura de software?](#cómo-funciona-la-arquitectura-de-software)
+    - [Sus componentes](#sus-componentes)
+    - [Patrones de arquitectura de software](#patrones-de-arquitectura-de-software)
+
+
+
 
 🏛️ **La Arquitectura de Software en un Vistazo** 🏛️
 
@@ -57,8 +65,14 @@ La arquitectura de software se basa en una variedad de patrones para organizar y
 **1. Patrón Cliente-Servidor** 🤵🏻🤖
 
 El patrón Cliente-Servidor es uno de los más fundamentales. En este modelo, un cliente (usuario o aplicación) solicita servicios o recursos a un servidor central. Es como un restaurante donde el cliente hace pedidos y el chef (servidor) prepara la comida. Este enfoque permite una clara separación de responsabilidades entre el cliente y el servidor.
+- Ejemplo en la Rama llamada *Cliente-Servidor*
 
 **2. Patrón de Capas** 🍰🍰
+Como dice su nombre, este patrón de arquitectura de software divide la estructura del software en diferentes capas, que comúnmente se conocen como:
+
+- Capa de presentación
+- Capa Lógica
+- Capa de Datos
 
 El Patrón de Capas organiza un sistema en capas o niveles, donde cada capa tiene una función específica. Por ejemplo, en una aplicación web, puedes tener una capa de presentación (interfaz de usuario), una capa de lógica de negocios y una capa de acceso a datos. Esta estructura facilita la gestión y la escalabilidad.
 
@@ -75,3 +89,5 @@ El Patrón Modelo-Vista-Controlador (MVC) es ampliamente utilizado en aplicacion
 El Patrón Broker actúa como intermediario entre componentes o servicios. Proporciona un punto centralizado para la comunicación y la gestión de servicios, lo que facilita la escalabilidad y la gestión de componentes distribuidos. Piensa en él como un conserje que te conecta con diferentes servicios en un hotel.
 
 Estos patrones son solo algunos ejemplos de las numerosas estrategias utilizadas en la arquitectura de software para resolver desafíos específicos. La elección del patrón adecuado depende de las necesidades y objetivos de tu proyecto. 🛠️📚
+
+
