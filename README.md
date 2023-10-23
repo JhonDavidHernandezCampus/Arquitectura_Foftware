@@ -75,6 +75,7 @@ Como dice su nombre, este patrón de arquitectura de software divide la estructu
 - Capa de Datos
 
 El Patrón de Capas organiza un sistema en capas o niveles, donde cada capa tiene una función específica. Por ejemplo, en una aplicación web, puedes tener una capa de presentación (interfaz de usuario), una capa de lógica de negocios y una capa de acceso a datos. Esta estructura facilita la gestión y la escalabilidad.
+Ejemplo en la Rama llamada *patron-de-capas*
 
 **3. Patrón Master-Slave** 🎩🤵
 
